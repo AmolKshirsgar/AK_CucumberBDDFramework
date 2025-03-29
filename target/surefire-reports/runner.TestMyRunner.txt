@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestMyRunner
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 75.26 s <<< FAILURE! -- in runner.TestMyRunner
-Login Functionality.Login with valid email and invalid password -- Time elapsed: 24.25 s <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch(LoginApp.java:83)
-	at ✽.User should get proper warning message about credentials mismatch(file:///C:/Users/AmolKshirsagar/eclipse-workspace/AK_CucumberBDDFramework/src/test/resource/features/LoginApp.feature:28)
-
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 77.28 s -- in runner.TestMyRunner

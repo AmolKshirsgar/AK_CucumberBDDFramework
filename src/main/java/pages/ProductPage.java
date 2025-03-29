@@ -39,4 +39,31 @@ public class ProductPage
 		return elementUtils.displayStatusofElement(noProdWarning, 10);
 	}
 
+	@FindBy(xpath="(//span[contains(text(),'Add to Cart')])[1]")
+	private WebElement cartOption;
+	
+	public void addToCart()
+	{
+		elementUtils.clickOnElement(cartOption, 10);
+	}
+	
+	@FindBy(xpath="//button[contains(text(),'Add to Cart')]")
+	private WebElement cartOption1;
+	
+	public void addToCartFinal()
+	{
+		elementUtils.clickOnElement(cartOption1, 10);
+	}
+	
+	@FindBy(xpath="//span[contains(text(),'Shopping Cart')]")
+	private WebElement shoppintCart;
+	
+	public ShoppingCartPage shoppintCartClick()
+	{
+		elementUtils.clickOnElement(shoppintCart, 10);
+		return new ShoppingCartPage(driver);
+	}
+	
+	
+	
 }

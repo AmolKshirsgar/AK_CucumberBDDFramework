@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestMyRunner" time="75.256" tests="13" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestMyRunner" time="77.275" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\AmolKshirsagar\AppData\Local\Temp\surefire6519861311420600445\surefirebooter-20250324152657930_3.jar C:\Users\AmolKshirsagar\AppData\Local\Temp\surefire6519861311420600445 2025-03-24T15-26-57_789-jvmRun1 surefire-20250324152657930_1tmp surefire_0-20250324152657930_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\AmolKshirsagar\AppData\Local\Temp\surefire1212002790661185500\surefirebooter-20250329155132082_3.jar C:\Users\AmolKshirsagar\AppData\Local\Temp\surefire1212002790661185500 2025-03-29T15-51-31_946-jvmRun1 surefire-20250329155132082_1tmp surefire_0-20250329155132082_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\AmolKshirsagar\eclipse-workspace\AK_CucumberBDDFramework\target\test-classes;C:\Users\AmolKshirsagar\eclipse-workspace\AK_CucumberBDDFramework\target\classes;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\AmolKshirsagar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\AmolKshirsagar\.m2\repository\io\cucumber\cucumber-junit\7.21.1\cucumber-junit-7.21.1.jar;C:\Users\AmolKshirsagar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\AmolKshirsagar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\AmolKshirsagar\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\AmolKshirsagar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\AmolKshirsagar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\AmolKshirsagar\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\AmolKshirsagar\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\AmolKshirsagar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\AmolKshirsagar\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\AmolKshirsagar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\AmolKshirsagar\AppData\Local\Temp\surefire6519861311420600445\surefirebooter-20250324152657930_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\AmolKshirsagar\AppData\Local\Temp\surefire1212002790661185500\surefirebooter-20250329155132082_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -50,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-22\bin;C:\Program Files\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Program Files\Git\cmd;C:\Users\AmolKshirsagar\AppData\Local\Microsoft\WindowsApps;C:\Users\AmolKshirsagar\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\apache-maven-3.9.8-bin\apache-maven-3.9.8/bin;C:\Program Files\Java\jdk-22/bin;C:\Program Files\Java\jdk-22/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-22\bin;C:\Program Files\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Program Files\Git\cmd;C:\Users\AmolKshirsagar\AppData\Local\Microsoft\WindowsApps;C:\Users\AmolKshirsagar\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -58,289 +58,198 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="Login with valid credentials #1" classname="Login Functionality" time="4.454">
+  <testcase name="Login with valid credentials #1" classname="Login Functionality" time="5.402">
     <system-out><![CDATA[
-Scenario Outline: Login with valid credentials                       &amp#27;[90m# src/test/resource/features/LoginApp.feature:11&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has navigated to login page&amp#27;[0m                             &amp#27;[90m# stepDefination.LoginApp.user_has_navigated_to_login_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1makk@test.com&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepDefination.LoginApp.user_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid password address &amp#27;[0m&amp#27;[32m&amp#27;[1mak123&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m   &amp#27;[90m# stepDefination.LoginApp.user_enters_valid_password_address_into_password_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on login button&amp#27;[0m                                    &amp#27;[90m# stepDefination.LoginApp.user_clicks_on_login_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get successfully logged in&amp#27;[0m                        &amp#27;[90m# stepDefination.LoginApp.user_should_get_successfully_logged_in()&amp#27;[0m
+Scenario Outline: Login with valid credentials                       # src/test/resource/features/LoginApp.feature:11
+  Given User has navigated to login page                             # stepDefination.LoginApp.user_has_navigated_to_login_page()
+  When User enters valid email address akk@test.com into email field # stepDefination.LoginApp.user_enters_valid_email_address_into_email_field(java.lang.String)
+  And User enters valid password address ak123 into password field   # stepDefination.LoginApp.user_enters_valid_password_address_into_password_field(java.lang.String)
+  And User clicks on login button                                    # stepDefination.LoginApp.user_clicks_on_login_button()
+  Then User should get successfully logged in                        # stepDefination.LoginApp.user_should_get_successfully_logged_in()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:27:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:51:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="Login with valid credentials #2" classname="Login Functionality" time="3.927">
+  <testcase name="Login with valid credentials #2" classname="Login Functionality" time="8.635">
     <system-out><![CDATA[
-Scenario Outline: Login with valid credentials                           &amp#27;[90m# src/test/resource/features/LoginApp.feature:12&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has navigated to login page&amp#27;[0m                                 &amp#27;[90m# stepDefination.LoginApp.user_has_navigated_to_login_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1mvirat@sharma.com&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepDefination.LoginApp.user_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid password address &amp#27;[0m&amp#27;[32m&amp#27;[1m12345&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m       &amp#27;[90m# stepDefination.LoginApp.user_enters_valid_password_address_into_password_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on login button&amp#27;[0m                                        &amp#27;[90m# stepDefination.LoginApp.user_clicks_on_login_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get successfully logged in&amp#27;[0m                            &amp#27;[90m# stepDefination.LoginApp.user_should_get_successfully_logged_in()&amp#27;[0m
+Scenario Outline: Login with valid credentials                           # src/test/resource/features/LoginApp.feature:12
+  Given User has navigated to login page                                 # stepDefination.LoginApp.user_has_navigated_to_login_page()
+  When User enters valid email address virat@sharma.com into email field # stepDefination.LoginApp.user_enters_valid_email_address_into_email_field(java.lang.String)
+  And User enters valid password address 12345 into password field       # stepDefination.LoginApp.user_enters_valid_password_address_into_password_field(java.lang.String)
+  And User clicks on login button                                        # stepDefination.LoginApp.user_clicks_on_login_button()
+  Then User should get successfully logged in                            # stepDefination.LoginApp.user_should_get_successfully_logged_in()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:27:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:51:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="Login with invalid credentials" classname="Login Functionality" time="4.141">
+  <testcase name="Login with invalid credentials" classname="Login Functionality" time="8.031">
     <system-out><![CDATA[
-Scenario: Login with invalid credentials                                 &amp#27;[90m# src/test/resource/features/LoginApp.feature:16&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has navigated to login page&amp#27;[0m                                 &amp#27;[90m# stepDefination.LoginApp.user_has_navigated_to_login_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters invalid email address into email field&amp#27;[0m                &amp#27;[90m# stepDefination.LoginApp.user_enters_invalid_email_address_into_email_field()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid password address &amp#27;[0m&amp#27;[32m&amp#27;[1m"ak12345"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m &amp#27;[90m# stepDefination.LoginApp.user_enters_invalid_password_address_into_password_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on login button&amp#27;[0m                                        &amp#27;[90m# stepDefination.LoginApp.user_clicks_on_login_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+Scenario: Login with invalid credentials                                 # src/test/resource/features/LoginApp.feature:16
+  Given User has navigated to login page                                 # stepDefination.LoginApp.user_has_navigated_to_login_page()
+  When User enters invalid email address into email field                # stepDefination.LoginApp.user_enters_invalid_email_address_into_email_field()
+  And User enters invalid password address "ak12345" into password field # stepDefination.LoginApp.user_enters_invalid_password_address_into_password_field(java.lang.String)
+  And User clicks on login button                                        # stepDefination.LoginApp.user_clicks_on_login_button()
+  Then User should get proper warning message about credentials mismatch # stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:27:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:51:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="Login with valid email and invalid password" classname="Login Functionality" time="24.247">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch(LoginApp.java:83)
-	at ✽.User should get proper warning message about credentials mismatch(file:///C:/Users/AmolKshirsagar/eclipse-workspace/AK_CucumberBDDFramework/src/test/resource/features/LoginApp.feature:28)
-]]></failure>
+  <testcase name="Login with valid email and invalid password" classname="Login Functionality" time="5.198">
     <system-out><![CDATA[
-Scenario: Login with valid email and invalid password                    &amp#27;[90m# src/test/resource/features/LoginApp.feature:23&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has navigated to login page&amp#27;[0m                                 &amp#27;[90m# stepDefination.LoginApp.user_has_navigated_to_login_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"akk@test.com"&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m   &amp#27;[90m# stepDefination.LoginApp.user_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid password address &amp#27;[0m&amp#27;[32m&amp#27;[1m"ak12345"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m &amp#27;[90m# stepDefination.LoginApp.user_enters_invalid_password_address_into_password_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on login button&amp#27;[0m                                        &amp#27;[90m# stepDefination.LoginApp.user_clicks_on_login_button()&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser should get proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError
-      	at org.junit.Assert.fail(Assert.java:87)
-      	at org.junit.Assert.assertTrue(Assert.java:42)
-      	at org.junit.Assert.assertTrue(Assert.java:53)
-      	at stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch(LoginApp.java:83)
-      	at ✽.User should get proper warning message about credentials mismatch(file:///C:/Users/AmolKshirsagar/eclipse-workspace/AK_CucumberBDDFramework/src/test/resource/features/LoginApp.feature:28)&amp#27;[0m
-
-    Embedding Login_with_valid_email_and_invalid_password [image/png 115738 bytes]
-
+Scenario: Login with valid email and invalid password                    # src/test/resource/features/LoginApp.feature:23
+  Given User has navigated to login page                                 # stepDefination.LoginApp.user_has_navigated_to_login_page()
+  When User enters valid email address "akk@test.com" into email field   # stepDefination.LoginApp.user_enters_valid_email_address_into_email_field(java.lang.String)
+  And User enters invalid password address "ak12345" into password field # stepDefination.LoginApp.user_enters_invalid_password_address_into_password_field(java.lang.String)
+  And User clicks on login button                                        # stepDefination.LoginApp.user_clicks_on_login_button()
+  Then User should get proper warning message about credentials mismatch # stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:27:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'Warning: No match for E-Mail Address and/or Password.')]' (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at utils.ElementUtils.waitForElement(ElementUtils.java:29)
-	at utils.ElementUtils.displayStatusofElement(ElementUtils.java:139)
-	at pages.LoginPage.getWarningMsgTxt(LoginPage.java:60)
-	at stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch(LoginApp.java:83)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
-	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
-	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:229)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Warning: No match for E-Mail Address and/or Password.')]"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cfa266c71518f361f8b48a053b0e41b7, findElement {value=//div[contains(text(),'Warning: No match for E-Mail Address and/or Password.')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\AMOLKS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58423/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cfa266c71518f361f8b48a053b0e41b7
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 54 more
-]]></system-err>
-  </testcase>
-  <testcase name="Login with invalid email and valid password" classname="Login Functionality" time="4.549">
-    <system-out><![CDATA[
-Scenario: Login with invalid email and valid password                    &amp#27;[90m# src/test/resource/features/LoginApp.feature:30&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has navigated to login page&amp#27;[0m                                 &amp#27;[90m# stepDefination.LoginApp.user_has_navigated_to_login_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters invalid email address into email field&amp#27;[0m                &amp#27;[90m# stepDefination.LoginApp.user_enters_invalid_email_address_into_email_field()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid password address &amp#27;[0m&amp#27;[32m&amp#27;[1m"ak123"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m     &amp#27;[90m# stepDefination.LoginApp.user_enters_valid_password_address_into_password_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on login button&amp#27;[0m                                        &amp#27;[90m# stepDefination.LoginApp.user_clicks_on_login_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:27:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:51:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="Login without providing any credentials" classname="Login Functionality" time="3.857">
+  <testcase name="Login with invalid email and valid password" classname="Login Functionality" time="5.634">
     <system-out><![CDATA[
-Scenario: Login without providing any credentials                        &amp#27;[90m# src/test/resource/features/LoginApp.feature:37&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has navigated to login page&amp#27;[0m                                 &amp#27;[90m# stepDefination.LoginApp.user_has_navigated_to_login_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter email into email field&amp#27;[0m                            &amp#27;[90m# stepDefination.LoginApp.user_dont_enter_email_into_email_field()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser dont enter password into password field&amp#27;[0m                       &amp#27;[90m# stepDefination.LoginApp.user_dont_enter_password_into_password_field()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on login button&amp#27;[0m                                        &amp#27;[90m# stepDefination.LoginApp.user_clicks_on_login_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+Scenario: Login with invalid email and valid password                    # src/test/resource/features/LoginApp.feature:30
+  Given User has navigated to login page                                 # stepDefination.LoginApp.user_has_navigated_to_login_page()
+  When User enters invalid email address into email field                # stepDefination.LoginApp.user_enters_invalid_email_address_into_email_field()
+  And User enters valid password address "ak123" into password field     # stepDefination.LoginApp.user_enters_valid_password_address_into_password_field(java.lang.String)
+  And User clicks on login button                                        # stepDefination.LoginApp.user_clicks_on_login_button()
+  Then User should get proper warning message about credentials mismatch # stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:27:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:52:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="User creates account only with mandotary fields" classname="Registartion functionality" time="5.106">
+  <testcase name="Login without providing any credentials" classname="Login Functionality" time="3.849">
     <system-out><![CDATA[
-Scenario: User creates account only with mandotary fields &amp#27;[90m# src/test/resource/features/RegisterApp.feature:3&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m           &amp#27;[90m# stepDefination.RegisterApp.user_navigates_to_register_account_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters details in below fields&amp#27;[0m                &amp#27;[90m# stepDefination.RegisterApp.user_enters_details_in_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+Scenario: Login without providing any credentials                        # src/test/resource/features/LoginApp.feature:37
+  Given User has navigated to login page                                 # stepDefination.LoginApp.user_has_navigated_to_login_page()
+  When User dont enter email into email field                            # stepDefination.LoginApp.user_dont_enter_email_into_email_field()
+  And User dont enter password into password field                       # stepDefination.LoginApp.user_dont_enter_password_into_password_field()
+  And User clicks on login button                                        # stepDefination.LoginApp.user_clicks_on_login_button()
+  Then User should get proper warning message about credentials mismatch # stepDefination.LoginApp.user_should_get_proper_warning_message_about_credentials_mismatch()
+]]></system-out>
+    <system-err><![CDATA[Mar 29, 2025 3:52:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="Verify if user is able to place the order" classname="End to End scenario for placing order" time="12.601">
+    <system-out><![CDATA[
+Scenario: Verify if user is able to place the order                     # src/test/resource/features/OrderApp.feature:3
+  Given User login to the application                                   # stepDefination.OrderApp.user_login_to_the_application()
+  When User enters valid email address "akk@test.com" into email field. # stepDefination.OrderApp.user_enters_valid_email_address_into_email_field(java.lang.String)
+  And User enters valid password address "ak123" into password field.   # stepDefination.OrderApp.user_enters_valid_password_address_into_password_field(java.lang.String)
+  And User clicks on login button.                                      # stepDefination.OrderApp.user_clicks_on_login_button()
+  When User add a product "HP LP3065" to a bag and checkout             # stepDefination.OrderApp.user_add_a_product_to_a_bag_and_checkout(java.lang.String)
+  And User place an order                                               # stepDefination.OrderApp.user_place_an_order()
+  Then User should see the order placed successfully                    # stepDefination.OrderApp.user_should_see_the_order_placed_successfully()
+]]></system-out>
+    <system-err><![CDATA[Mar 29, 2025 3:52:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="User creates account only with mandotary fields" classname="Registartion functionality" time="4.342">
+    <system-out><![CDATA[
+Scenario: User creates account only with mandotary fields # src/test/resource/features/RegisterApp.feature:3
+  Given User navigates to Register Account page           # stepDefination.RegisterApp.user_navigates_to_register_account_page()
+  When User enters details in below fields                # stepDefination.RegisterApp.user_enters_details_in_below_fields(io.cucumber.datatable.DataTable)
     | firstName | Virat      |
     | lastName  | Sharma     |
     | telephone | 1234567890 |
     | password  | 12345      |
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser select Provacy Policy&amp#27;[0m                          &amp#27;[90m# stepDefination.RegisterApp.user_select_provacy_policy()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                      &amp#27;[90m# stepDefination.RegisterApp.user_clicks_on_continue_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m       &amp#27;[90m# stepDefination.RegisterApp.user_account_should_get_created_successfully()&amp#27;[0m
+  And User select Provacy Policy                          # stepDefination.RegisterApp.user_select_provacy_policy()
+  And User clicks on Continue button                      # stepDefination.RegisterApp.user_clicks_on_continue_button()
+  Then User account should get created successfully       # stepDefination.RegisterApp.user_account_should_get_created_successfully()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:27:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:52:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="User creates account only with all fields" classname="Registartion functionality" time="5.112">
+  <testcase name="User creates account only with all fields" classname="Registartion functionality" time="4.515">
     <system-out><![CDATA[
-Scenario: User creates account only with all fields &amp#27;[90m# src/test/resource/features/RegisterApp.feature:15&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m     &amp#27;[90m# stepDefination.RegisterApp.user_navigates_to_register_account_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters details in below fields&amp#27;[0m          &amp#27;[90m# stepDefination.RegisterApp.user_enters_details_in_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+Scenario: User creates account only with all fields # src/test/resource/features/RegisterApp.feature:15
+  Given User navigates to Register Account page     # stepDefination.RegisterApp.user_navigates_to_register_account_page()
+  When User enters details in below fields          # stepDefination.RegisterApp.user_enters_details_in_below_fields(io.cucumber.datatable.DataTable)
     | firstName | Virat      |
     | lastName  | Sharma     |
     | telephone | 1234567890 |
     | password  | 12345      |
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Yes for Newsletter&amp#27;[0m               &amp#27;[90m# stepDefination.RegisterApp.user_selects_yes_for_newsletter()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser select Provacy Policy&amp#27;[0m                    &amp#27;[90m# stepDefination.RegisterApp.user_select_provacy_policy()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                &amp#27;[90m# stepDefination.RegisterApp.user_clicks_on_continue_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m &amp#27;[90m# stepDefination.RegisterApp.user_account_should_get_created_successfully()&amp#27;[0m
+  And User selects Yes for Newsletter               # stepDefination.RegisterApp.user_selects_yes_for_newsletter()
+  And User select Provacy Policy                    # stepDefination.RegisterApp.user_select_provacy_policy()
+  And User clicks on Continue button                # stepDefination.RegisterApp.user_clicks_on_continue_button()
+  Then User account should get created successfully # stepDefination.RegisterApp.user_account_should_get_created_successfully()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:27:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:52:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="User creates duplicate account" classname="Registartion functionality" time="4.965">
+  <testcase name="User creates duplicate account" classname="Registartion functionality" time="4.336">
     <system-out><![CDATA[
-Scenario: User creates duplicate account                        &amp#27;[90m# src/test/resource/features/RegisterApp.feature:28&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m                 &amp#27;[90m# stepDefination.RegisterApp.user_navigates_to_register_account_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters details in below fields with duplicate email&amp#27;[0m &amp#27;[90m# stepDefination.RegisterApp.User_enters_details_in_below_fields_with_duplicate_email(io.cucumber.datatable.DataTable)&amp#27;[0m
+Scenario: User creates duplicate account                        # src/test/resource/features/RegisterApp.feature:28
+  Given User navigates to Register Account page                 # stepDefination.RegisterApp.user_navigates_to_register_account_page()
+  When User enters details in below fields with duplicate email # stepDefination.RegisterApp.User_enters_details_in_below_fields_with_duplicate_email(io.cucumber.datatable.DataTable)
     | firstName | Virat            |
     | lastName  | Sharma           |
     | email     | virat@sharma.com |
     | telephone | 1234567890       |
     | password  | 12345            |
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Yes for Newsletter&amp#27;[0m                           &amp#27;[90m# stepDefination.RegisterApp.user_selects_yes_for_newsletter()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser select Provacy Policy&amp#27;[0m                                &amp#27;[90m# stepDefination.RegisterApp.user_select_provacy_policy()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                            &amp#27;[90m# stepDefination.RegisterApp.user_clicks_on_continue_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get proper warning about duplicate email&amp#27;[0m     &amp#27;[90m# stepDefination.RegisterApp.user_should_get_proper_warning_about_duplicate_email()&amp#27;[0m
+  And User selects Yes for Newsletter                           # stepDefination.RegisterApp.user_selects_yes_for_newsletter()
+  And User select Provacy Policy                                # stepDefination.RegisterApp.user_select_provacy_policy()
+  And User clicks on Continue button                            # stepDefination.RegisterApp.user_clicks_on_continue_button()
+  Then User should get proper warning about duplicate email     # stepDefination.RegisterApp.user_should_get_proper_warning_about_duplicate_email()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:27:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:52:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="User creates account without filling any details" classname="Registartion functionality" time="4.156">
+  <testcase name="User creates account without filling any details" classname="Registartion functionality" time="3.578">
     <system-out><![CDATA[
-Scenario: User creates account without filling any details               &amp#27;[90m# src/test/resource/features/RegisterApp.feature:43&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m                          &amp#27;[90m# stepDefination.RegisterApp.user_navigates_to_register_account_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enters any details into fields&amp#27;[0m                          &amp#27;[90m# stepDefination.RegisterApp.user_dont_enters_any_details_into_fields()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                                     &amp#27;[90m# stepDefination.RegisterApp.user_clicks_on_continue_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get proper warning message for every mandatory fields&amp#27;[0m &amp#27;[90m# stepDefination.RegisterApp.user_should_get_proper_warning_message_for_every_mandatory_fields()&amp#27;[0m
+Scenario: User creates account without filling any details               # src/test/resource/features/RegisterApp.feature:43
+  Given User navigates to Register Account page                          # stepDefination.RegisterApp.user_navigates_to_register_account_page()
+  When User dont enters any details into fields                          # stepDefination.RegisterApp.user_dont_enters_any_details_into_fields()
+  And User clicks on Continue button                                     # stepDefination.RegisterApp.user_clicks_on_continue_button()
+  Then User should get proper warning message for every mandatory fields # stepDefination.RegisterApp.user_should_get_proper_warning_message_for_every_mandatory_fields()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:28:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:52:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="User searches for valid product" classname="Search Functionality" time="3.276">
+  <testcase name="User searches for valid product" classname="Search Functionality" time="3.123">
     <system-out><![CDATA[
-Scenario: User searches for valid product                        &amp#27;[90m# src/test/resource/features/SearchApp.feature:3&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the application&amp#27;[0m                               &amp#27;[90m# stepDefination.SearchApp.user_opens_the_application()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid product &amp#27;[0m&amp#27;[32m&amp#27;[1m"HP"&amp#27;[0m&amp#27;[32m into search box field&amp#27;[0m      &amp#27;[90m# stepDefination.SearchApp.user_enters_valid_product_into_search_box_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                               &amp#27;[90m# stepDefination.SearchApp.user_clicks_on_search_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get valid product displayed in search results&amp#27;[0m &amp#27;[90m# stepDefination.SearchApp.user_should_get_valid_product_displayed_in_search_results()&amp#27;[0m
+Scenario: User searches for valid product                        # src/test/resource/features/SearchApp.feature:3
+  Given User opens the application                               # stepDefination.SearchApp.user_opens_the_application()
+  When User enters valid product "HP" into search box field      # stepDefination.SearchApp.user_enters_valid_product_into_search_box_field(java.lang.String)
+  And User clicks on Search button                               # stepDefination.SearchApp.user_clicks_on_search_button()
+  Then User should get valid product displayed in search results # stepDefination.SearchApp.user_should_get_valid_product_displayed_in_search_results()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:28:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:52:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="User searches for an invalid product" classname="Search Functionality" time="3.842">
+  <testcase name="User searches for an invalid product" classname="Search Functionality" time="2.748">
     <system-out><![CDATA[
-Scenario: User searches for an invalid product                   &amp#27;[90m# src/test/resource/features/SearchApp.feature:10&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the application&amp#27;[0m                               &amp#27;[90m# stepDefination.SearchApp.user_opens_the_application()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters invalid product &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m into search box field&amp#27;[0m &amp#27;[90m# stepDefination.SearchApp.user_enters_invalid_product_into_search_box_field(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                               &amp#27;[90m# stepDefination.SearchApp.user_clicks_on_search_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get message about no product matching&amp#27;[0m         &amp#27;[90m# stepDefination.SearchApp.user_should_get_message_about_no_product_matching()&amp#27;[0m
+Scenario: User searches for an invalid product                   # src/test/resource/features/SearchApp.feature:10
+  Given User opens the application                               # stepDefination.SearchApp.user_opens_the_application()
+  When User enters invalid product "Honda" into search box field # stepDefination.SearchApp.user_enters_invalid_product_into_search_box_field(java.lang.String)
+  And User clicks on Search button                               # stepDefination.SearchApp.user_clicks_on_search_button()
+  Then User should get message about no product matching         # stepDefination.SearchApp.user_should_get_message_about_no_product_matching()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:28:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:52:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="User searches without any product" classname="Search Functionality" time="2.973">
+  <testcase name="User searches without any product" classname="Search Functionality" time="2.618">
     <system-out><![CDATA[
-Scenario: User searches without any product               &amp#27;[90m# src/test/resource/features/SearchApp.feature:17&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the application&amp#27;[0m                        &amp#27;[90m# stepDefination.SearchApp.user_opens_the_application()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enters any product into search box field&amp#27;[0m &amp#27;[90m# stepDefination.SearchApp.user_dont_enters_any_product_into_search_box_field()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                        &amp#27;[90m# stepDefination.SearchApp.user_clicks_on_search_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get message about no product matching&amp#27;[0m  &amp#27;[90m# stepDefination.SearchApp.user_should_get_message_about_no_product_matching()&amp#27;[0m
+Scenario: User searches without any product               # src/test/resource/features/SearchApp.feature:17
+  Given User opens the application                        # stepDefination.SearchApp.user_opens_the_application()
+  When User dont enters any product into search box field # stepDefination.SearchApp.user_dont_enters_any_product_into_search_box_field()
+  And User clicks on Search button                        # stepDefination.SearchApp.user_clicks_on_search_button()
+  Then User should get message about no product matching  # stepDefination.SearchApp.user_should_get_message_about_no_product_matching()
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2025 3:28:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 29, 2025 3:52:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>

@@ -11,7 +11,8 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import utils.ConfigReader;
 
-public class MyHooks
+
+public class MyHooks 
 {
 	public WebDriver driver;
 	public Properties prop;
@@ -25,7 +26,7 @@ public class MyHooks
 		
 		driver=DriverFactory.initilizeBrowser(prop.getProperty("browser"));
 		driver.get(prop.getProperty("url"));
-	
+			
 	}
 	
 	@After
@@ -41,5 +42,7 @@ public class MyHooks
 		driver.quit();
 	
 	}
+
+
 
 }

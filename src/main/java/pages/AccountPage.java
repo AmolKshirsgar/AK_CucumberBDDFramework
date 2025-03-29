@@ -27,7 +27,25 @@ public class AccountPage
 	{
 //		return acctPageConfim.isDisplayed();
 		return elementUtils.displayStatusofElement(acctPageConfim, 10);
-		
 	}
 
+	
+	@FindBy(name="search")
+	private WebElement searchProductField;
+	
+	public void enterSearchProduct(String product)
+	{
+		elementUtils.typeTextIntoElement(searchProductField, product, 10);
+//		searchProduct.sendKeys(product);
+	}
+	
+	@FindBy(xpath="//button[contains(@class,'btn-default')]")
+	private WebElement searchBtn;
+	
+	public ProductPage clkSearchBtn()
+	{
+		elementUtils.clickOnElement(searchBtn, 10);
+//		searchBtn.click();
+		return new ProductPage(driver);
+	}
 }
